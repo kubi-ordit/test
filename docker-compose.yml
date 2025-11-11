@@ -1,0 +1,13 @@
+services:
+    app:
+        build:
+            context: ./app
+            args:
+                USER_ID: ${USER_ID:-1000}
+                GROUP_ID: ${GROUP_ID:-1000}
+        volumes:
+            - ./app:/var/www/html
+            - ./import_data:/var/www/html/import_data
+        environment:
+            PHP_OPCACHE_ENABLE: 1
+            PHP_DISPLAY_ERRORS: stderr

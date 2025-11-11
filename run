@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+./exec sf app:import --type=per_item ./import_data/with_price_per_item.csv
+./exec sf app:import --type=per_item ./import_data/with_price_per_item_v2.csv
+./exec sf app:import --type=total ./import_data/with_total.csv
+
+./exec sf app:import --type=per_item ./import_data/with_price_per_item.json
+./exec sf app:import --type=per_item ./import_data/with_price_per_item_v2.json
+./exec sf app:import --type=total ./import_data/with_total.json
