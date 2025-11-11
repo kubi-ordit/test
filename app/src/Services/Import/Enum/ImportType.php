@@ -1,5 +1,7 @@
 <?php
 
+ namespace App\Services\Import\Enum;
+
 enum ImportType: string
 {
     case DAILY = 'per_item';

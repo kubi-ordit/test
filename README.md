@@ -68,4 +68,4 @@ Azonos terméknév esetén az értékeket össze kell adni és a végén ismétl
 4) A végén ki kell írni a konzolba:
    - az összes, ismétlődés nélküli terméket a kiszámolt/összeadott végösszeggel (price total),
    - valamint annak a terméknek a nevét és összegét, amelynek a végösszege a legnagyobb.
-5) A megoldásnak könnyen bővíthetőnek kell lennie, hozzá lehessen adni új fájl formátumokat vagy adat struktúra tipusokat.   
+5) A megoldásnak könnyen bővíthetőnek kell lennie, hozzá lehessen adni új fájl formátumokat vagy adat struktúra tipusokat és kimeneti formátumokat.   
